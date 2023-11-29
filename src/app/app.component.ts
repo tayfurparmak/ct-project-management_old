@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProjectComponent } from './components/project/project.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -23,6 +24,8 @@ import { ContactComponent } from './components/contact/contact.component';
     AboutComponent,
     ProjectComponent,
     ContactComponent,
+    FormsModule,
+    ReactiveFormsModule
   ],
 })
 export class AppComponent {}
