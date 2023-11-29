@@ -12,4 +12,5 @@ ng g c components/footer
 
 npm i bootstrap
 
+ng g s services/project
 ```
